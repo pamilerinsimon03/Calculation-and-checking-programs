@@ -1,0 +1,5 @@
+print("This is the program to calculate the body mass index")
+weight = input("Enter your weight (kg): ")
+height = input("Enter your height (m): ")
+BMI = float(weight) / (float(height) ** 2)
+print("Your BMI is: ", BMI)
